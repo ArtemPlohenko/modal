@@ -9,7 +9,7 @@ window.addEventListener("DOMContentLoaded", () => {
   function openModal() {
     modal.classList.add("show");
     modal.classList.remove("hide");
-    document.body.style.overflow = "hidden";
+    document.body.style.overflow = "hidden";  // scrolling window
     // clearInterval(modalTimerId); // clear Interval if user opened modal
   }
 
