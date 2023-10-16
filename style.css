@@ -1,5 +1,7 @@
+/* -================= Fonts =================- */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext");
 
+/* -================= body =================- */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,6 +17,7 @@
   height: 100vh;
 }
 
+/* -================= Button =================- */
 .btn {
   width: 220px;
   height: 65px;
@@ -42,6 +45,7 @@
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3);
 }
 
+/* -================= Modal =================- */
 .modal {
   position: fixed;
   top: 0;
